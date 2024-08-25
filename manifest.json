@@ -1,0 +1,19 @@
+{
+    "name": "Bible Notifier",
+    "version": "0.1.0",
+    "description": "Notifying Bible verses in times.",
+    "permissions": ["notifications", "alarms", "tabs", "activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "assets/bible_icon.png",
+        "24": "assets/bible_icon.png",
+        "32": "assets/bible_icon.png"
+      },
+      "default_title": "Bible Notifier",
+      "default_popup": "main.html"
+    },
+    "manifest_version": 3
+  }
